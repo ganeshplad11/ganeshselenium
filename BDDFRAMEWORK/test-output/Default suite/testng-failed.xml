@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)" preserve-order="true">
+    <classes>
+      <class name="com.automation.testscenarios.LoginPageTest">
+        <methods>
+          <include name="gettile"/>
+          <include name="login"/>
+          <include name="setup"/>
+          <include name="signupTest"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.automation.testscenarios.LoginPageTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
